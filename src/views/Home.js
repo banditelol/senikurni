@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/css/home.css';
+import logo from '../assets/img/logo.png';
 
 function Home() {
   return (
@@ -17,7 +18,10 @@ function Home() {
       </div>
       <div id='content'>
         <div class='topnav'>
-          <a href='#home'>SENIKURNI</a>
+          <a href='#home'>
+            <img src={logo} alt='Logo' Style='width: 20%; padding-right: 10px;' />
+            SENIKURNI
+          </a>
           <div class='topnav-right'>
             <a href='#portofolio'>PORTOFOLIO</a>
             <a href='#portofolio'>BLOG</a>
