@@ -1,53 +1,14 @@
-#bg_container {
-  height: 100%;
-  overflow: hidden;
-}
-#bg {
-  width: 100%;
-  height: 615px;
-}
-#content {
-  position: absolute;
-  top: 0px;
-  padding: 0px;
-  color: black;
-  width: 100%;
-}
-#profile {
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  position: absolute;
-  width: 400px;
-  height: 250px;
-  padding: 20px;
-  top: 250px;
-  left: 106px;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0);
-  width: 100%;
-}
-
-.topnav-right {
-  float: right;
-}
-
-.topnav a {
-  float: left;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.profile {
+	background: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	position: absolute;
+	width: 400px;
+	height: 250px;
+	padding: 20px;
+	top: 250px;
+	left: 106px;
 }

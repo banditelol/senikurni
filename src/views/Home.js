@@ -1,44 +1,26 @@
 import React from 'react';
 import '../assets/css/home.css';
-import logo from '../assets/img/logo.png';
+import Spline from '../components/Spline';
+
+import Navbar from '../components/Navbar';
 
 function Home() {
-  return (
-    <>
-      <div id='bg_container'>
-        <iframe
-          title='spline-background'
-          id='bg'
-          src='https://my.spline.design/senikurnicopy-c32be502baecbd1b69cc31d0a860339f/'
-          frameborder='0'
-          border='none'
-          height='100%'
-          width='100%'
-        ></iframe>
-      </div>
-      <div id='content'>
-        <div class='topnav'>
-          <a href='#home'>
-            <img src={logo} alt='Logo' Style='width: 20%; padding-right: 10px;' />
-            SENIKURNI
-          </a>
-          <div class='topnav-right'>
-            <a href='#portofolio'>PORTOFOLIO</a>
-            <a href='#portofolio'>BLOG</a>
-          </div>
-        </div>
-        <div id='profile'>
-          <h2>Hi there &#128512;, I'm</h2>
-          <h1>Kurniawan Adhi</h1>
-          <p>
-            I'm a UI/UX Designer and Illustrator. I'm passionate about improving the lives of others
-            through design.
-          </p>
-          <p>Currently a freelancer based in Bandung.</p>
-        </div>
-      </div>
-    </>
-  );
+	return (
+		<div className="h-screen">
+			<Spline />
+			<div className="absolute top-0 p-0 color-black w-full" id="content">
+				<Navbar />
+				<div className="profile">
+					<h2>Hi there &#128512;, I'm</h2>
+					<h1>Kurniawan Adhi</h1>
+					<p>
+						I'm a UI/UX Designer and Illustrator. I'm passionate about improving the lives of others through design.
+					</p>
+					<p>Currently a freelancer based in Bandung.</p>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default Home;
