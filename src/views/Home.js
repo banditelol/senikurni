@@ -13,10 +13,10 @@ function Home() {
 				<div className="profile">
 					<p className="text-xl font-bold">Hi there &#128512;, I'm</p>
 					<p className="text-4xl font-extrabold">Kurniawan Adhi</p>
-					<p>
+					<p className="pt-6">
 						I'm a UI/UX Designer and Illustrator. I'm passionate about improving the lives of others through design.
 					</p>
-					<p>Currently a freelancer based in Bandung.</p>
+					<p className="pt-3">Currently a freelancer based in Bandung, Indonesia.</p>
 				</div>
 			</div>
 		</div>

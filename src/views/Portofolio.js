@@ -14,6 +14,9 @@ function Portofolio() {
 				<span className="cursor-pointer mx-10 text-sm text-primary py-2 px-4">Graphic Design</span>
 			</div>
 			<div className="relative flex justify-center mt-32 h-full bg-secondary bg-clip-border"></div>
+			<div className="relative top-0 p-0 color-black w-full">
+				<p>abc</p>
+			</div>
 		</div>
 	);
 }

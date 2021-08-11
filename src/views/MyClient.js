@@ -6,7 +6,8 @@ function MyClient() {
 					I've worked on projects for
 				</h1>
 				<p className="text-center m-64">
-					I’ve been designing and building websites for 6 years, <br></br> you can view more projects here
+					I’ve been designing and building websites for 6 years, <br></br> you can{' '}
+					<span className="text-primary cursor-pointer">view more projects here</span>
 				</p>
 			</div>
 		</div>
