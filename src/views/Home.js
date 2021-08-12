@@ -3,6 +3,7 @@ import '../assets/css/home.css';
 import Spline from '../components/Spline';
 
 import Navbar from '../components/Navbar';
+import { DribbbleFill, InstagramFill, LinkedInV2Fill, MediumFill, TwitterFill } from 'akar-icons';
 
 function Home() {
 	return (
@@ -17,6 +18,13 @@ function Home() {
 						I'm a UI/UX Designer and Illustrator. I'm passionate about improving the lives of others through design.
 					</p>
 					<p className="pt-3">Currently a freelancer based in Bandung, Indonesia.</p>
+					<span className="flex justify-left mt-6">
+						<InstagramFill className="inline-block text-primary mr-6 cursor-pointer" />
+						<MediumFill className="inline-block text-primary mr-6 cursor-pointer" />
+						<DribbbleFill className="inline-block text-primary mr-6 cursor-pointer" />
+						<LinkedInV2Fill className="inline-block text-primary mr-6 cursor-pointer" />
+						<TwitterFill className="inline-block text-primary mr-6 cursor-pointer" />
+					</span>
 				</div>
 			</div>
 		</div>

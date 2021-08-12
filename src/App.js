@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './views/Home';
 import Portofolio from './views/Portofolio';
-import MyClient from './views/MyClient';
+import MyClients from './views/MyClients';
 import Contact from './views/Contact';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 		<div className="font-body">
 			<Home />
 			<Portofolio />
-			<MyClient />
+			<MyClients />
 			<Contact />
 		</div>
 	);

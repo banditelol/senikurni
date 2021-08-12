@@ -1,3 +1,5 @@
+import Porto1 from '../assets/img/porto1.png';
+
 function Portofolio() {
 	return (
 		<div className="h-screen overflow-hidden">
@@ -13,7 +15,11 @@ function Portofolio() {
 				<span className="cursor-pointer mx-10 text-sm text-primary py-2 px-4">Branding & Logo</span>
 				<span className="cursor-pointer mx-10 text-sm text-primary py-2 px-4">Graphic Design</span>
 			</div>
+
 			<div className="relative flex justify-center mt-32 h-full bg-secondary bg-clip-border"></div>
+			<div>
+				<img className="object-contain" src={Porto1} alt="Porto1" />
+			</div>
 			<div className="relative top-0 p-0 color-black w-full">
 				<p>abc</p>
 			</div>
