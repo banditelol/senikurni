@@ -1,6 +1,5 @@
 import './App.css';
 import Home from './views/Home';
-import Portofolio from './views/Portofolio';
 import MyClients from './views/MyClients';
 import Contact from './views/Contact';
 

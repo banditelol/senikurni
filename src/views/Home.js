@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/css/home.css';
 
-import Navbar from '../components/Navbar';
 import Card from '../components/Card';
 import Porto1 from '../assets/img/porto1.png';
 import { DribbbleFill, InstagramFill, LinkedInV2Fill, MediumFill, TwitterFill } from 'akar-icons';
