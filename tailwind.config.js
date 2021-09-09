@@ -5,6 +5,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				body: ['Metropolis'],
+				serif: ['Basley']
 			},
 			colors: {
 				primary: '#16B198',

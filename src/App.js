@@ -8,7 +8,6 @@ function App() {
 	return (
 		<div className="font-body">
 			<Home />
-			<Portofolio />
 			<MyClients />
 			<Contact />
 		</div>

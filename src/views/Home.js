@@ -1,23 +1,23 @@
 import React from 'react';
 import '../assets/css/home.css';
-import Spline from '../components/Spline';
 
 import Navbar from '../components/Navbar';
+import Card from '../components/Card';
+import Porto1 from '../assets/img/porto1.png';
 import { DribbbleFill, InstagramFill, LinkedInV2Fill, MediumFill, TwitterFill } from 'akar-icons';
 
-function Home() {
+const Home = () => {
+
 	return (
-		<div className="h-screen" id="home">
-			<Spline />
-			<div className="absolute top-0 p-0 color-black w-full" id="content">
-				<Navbar />
-				<div className="profile">
-					<p className="text-xl font-bold">Hi there &#128512;, I'm</p>
-					<p className="text-4xl font-extrabold">Kurniawan Adhi</p>
+		<div className="mx-8 mt-8" id="home">
+			{/* <Navbar /> */}
+			<div className="gallery">
+				<div id="profile-card">
+					<p className="text-xl font-bold">Hi 😃, welcome to </p>
+					<p className="text-6xl font-serif">senikurni<span className="text-8xl text-green-500 leading-5">.</span><br/>design</p>
 					<p className="pt-6">
-						I'm a UI/UX Designer and Illustrator. I'm passionate about improving the lives of others through design.
+					I'm <span className="text-red-700">Kurniawan Adhi</span> , UI/UX Designer and Illustrator.  I'm passionate about improving the lives of others through design.
 					</p>
-					<p className="pt-3">Currently a freelancer based in Bandung, Indonesia.</p>
 					<span className="flex justify-left mt-6">
 						<InstagramFill className="inline-block text-primary mr-6 cursor-pointer" />
 						<MediumFill className="inline-block text-primary mr-6 cursor-pointer" />
@@ -26,6 +26,15 @@ function Home() {
 						<TwitterFill className="inline-block text-primary mr-6 cursor-pointer" />
 					</span>
 				</div>
+				<Card image={Porto1} alt="porto1"/>
+				<Card image={Porto1} alt="porto1"/>
+				<Card image={Porto1} alt="porto1"/>
+				<Card image={Porto1} alt="porto1"/>
+				<Card image={Porto1} alt="porto1"/>
+				<Card image={Porto1} alt="porto1"/>
+				<Card image={Porto1} alt="porto1"/>
+				<Card image={Porto1} alt="porto1"/>
+				
 			</div>
 		</div>
 	);
